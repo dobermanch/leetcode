@@ -69,6 +69,10 @@ Code: [C#](/src/csharp/Problems/ClimbStairs.cs)
 Tags: Array, Binary Search, Matrix  
 Code: [C#](/src/csharp/Problems/SearchMatrix.cs)  
 
+### [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+Tags: Hash Table, String, Sliding Window  
+Code: [C#](/src/csharp/Problems/MinWindow.cs)  
+
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 Tags: String, Backtracking  
