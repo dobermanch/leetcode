@@ -39,6 +39,11 @@ Code: [C#](/src/csharp/Problems/MergeTwoLists.cs)
 Tags: Array, Binary Search  
 Code: [C#](/src/csharp/Problems/Search.cs)  
 
+### [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+
+Tags: Array, Backtracking  
+Code: [C#](/src/csharp/Problems/CombinationSum.cs)  
+
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 Tags: Math, String, Simulation  
