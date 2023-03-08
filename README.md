@@ -7,17 +7,27 @@ My solutions to [LeetCode](https://leetcode.com/) problems.
 ### [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 Tags: Array, Hash Table  
-Code: [C#](/src/csharp/Problems/TwoSum.cs)  
+Code: [C#](/src/csharp/Problems/TwoSum.cs) | [Go](/src/go/problems/TwoSum.go)  
 
 ### [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 Tags: Hash Table, String, Sliding Window  
-Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs)  
+Code: [C#](/src/csharp/Problems/LengthOfLongestSubstring.cs) | [Go](/src/go/problems/LengthOfLongestSubstring.go)  
+
+### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+
+Tags: Array, Two Pointers, Greedy  
+Code: [C#](/src/csharp/Problems/MaxArea.cs) | [Go](/src/go/problems/MaxArea.go)  
 
 ### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 Tags: String, Trie  
 Code: [C#](/src/csharp/Problems/LongestCommonPrefix.cs)  
+
+### [15. 3Sum](https://leetcode.com/problems/3sum/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/ThreeSum.cs) | [Go](/src/go/problems/ThreeSum.go)  
 
 ### [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 
@@ -29,20 +39,55 @@ Code: [C#](/src/csharp/Problems/ThreeSumClosest.cs)
 Tags: Linked List, Two Pointers  
 Code: [C#](/src/csharp/Problems/RemoveNthFromEnd.cs)  
 
+### [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+Tags: String, Stack  
+Code: [C#](/src/csharp/Problems/IsValidParentheses.cs) | [Go](/src/go/problems/IsValidParentheses.go)  
+
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 Tags: Linked List, Recursion  
-Code: [C#](/src/csharp/Problems/MergeTwoLists.cs)  
+Code: [C#](/src/csharp/Problems/MergeTwoLists.cs) | [Go](/src/go/problems/MergeTwoLists.go)  
 
 ### [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 Tags: Array, Binary Search  
 Code: [C#](/src/csharp/Problems/Search.cs)  
 
+### [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+
+Tags: Array, Binary Search  
+Code: [C#](/src/csharp/Problems/SearchInsert.cs)  
+
+### [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+
+Tags: Array, Hash Table, Matrix  
+Code: [C#](/src/csharp/Problems/IsValidSudoku.cs) | [Go](/src/go/problems/IsValidSudoku.go)  
+
+### [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+
+Tags: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack  
+Code: [C#](/src/csharp/Problems/Trap.cs) | [Go](/src/go/problems/Trap.go)  
+
 ### [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 Tags: Math, String, Simulation  
 Code: [C#](/src/csharp/Problems/Multiply.cs)  
+
+### [46. Permutations](https://leetcode.com/problems/permutations/)
+
+Tags: Array, Backtracking  
+Code: [C#](/src/csharp/Problems/Permute.cs)  
+
+### [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+
+Tags: Array, Hash Table, String, Sorting  
+Code: [C#](/src/csharp/Problems/GroupAnagrams.cs) | [Go](/src/go/problems/GroupAnagrams.go)  
+
+### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
+
+Tags: Array, Divide and Conquer, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/MaxSubArray.cs) | [Go](/src/go/problems/MaxSubArray.go)  
 
 ### [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 
@@ -70,8 +115,19 @@ Tags: Array, Binary Search, Matrix
 Code: [C#](/src/csharp/Problems/SearchMatrix.cs)  
 
 ### [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+
 Tags: Hash Table, String, Sliding Window  
 Code: [C#](/src/csharp/Problems/MinWindow.cs)  
+
+### [77. Combinations](https://leetcode.com/problems/combinations/)
+
+Tags: Backtracking  
+Code: [C#](/src/csharp/Problems/Combine.cs)  
+
+### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/Merge.cs) | [Go](/src/go/problems/Merge.go)  
 
 ### [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
@@ -108,35 +164,85 @@ Code: [C#](/src/csharp/Problems/SortedArrayToBST.cs)
 Tags: Tree, Depth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/IsBalanced.cs)  
 
+### [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+
+Tags: Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/Connect.cs)  
+
+### [120. Triangle](https://leetcode.com/problems/triangle/)
+
+Tags: Array, Dynamic Programming  
+Code: [C#](/src/csharp/Problems/MinimumTotal.cs)  
+
 ### [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 Tags: Array, Dynamic Programming  
-Code: [C#](/src/csharp/Problems/MaxProfit.cs)  
+Code: [C#](/src/csharp/Problems/MaxProfit.cs) | [Go](/src/go/Problems/MaxProfit.go)  
+
+### [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
+Tags: Two Pointers, String  
+Code: [C#](/src/csharp/Problems/IsPalindrome.cs) | [Go](/src/go/Problems/IsPalindrome.go)  
+
+### [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+
+Tags: Array, Hash Table, Union Find  
+Code: [C#](/src/csharp/Problems/LongestConsecutive.cs) | [Go](/src/go/problems/LongestConsecutive.go)  
 
 ### [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 Tags: String, Dynamic Programming, Backtracking  
 Code: [C#](/src/csharp/Problems/Partition.cs)  
 
+### [136. Single Number](https://leetcode.com/problems/single-number/)
+
+Tags: Array, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/SingleNumber.cs)  
+
 ### [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 Tags: Hash Table, Linked List, Two Pointers  
-Code: [C#](/src/csharp/Problems/DetectCycle.cs)  
+Code: [C#](/src/csharp/Problems/DetectCycle.cs) | [Go](/src/go/problems/DetectCycle.go)  
 
 ### [148. Sort List](https://leetcode.com/problems/sort-list/)
 
 Tags: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort  
 Code: [C#](/src/csharp/Problems/SortList.cs)  
 
+### [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+
+Tags: Array, Math, Stack  
+Code: [C#](/src/csharp/Problems/EvalRPN.cs) | [Go](/src/go/problems/EvalRPN.go)  
+
 ### [155. Min Stack](https://leetcode.com/problems/min-stack/)
 
 Tags: Stack, Design  
 Code: [C#](/src/csharp/Problems/MinStack.cs)  
 
+### [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+
+Tags: Array, Two Pointers, Binary Search  
+Code: [C#](/src/csharp/Problems/TwoSum2.cs) | [Go](/src/go/problems/TwoSum2.go)  
+
 ### [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 Tags: Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator  
 Code: [C#](/src/csharp/Problems/BSTIterator.cs)  
+
+### [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+
+Tags: Array, Math, Two Pointers  
+Code: [C#](/src/csharp/Problems/Rotate.cs)  
+
+### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+
+Tags: Divide and Conquer, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/ReverseBits.cs)  
+
+### [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+
+Tags: Divide and Conquer, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/HammingWeight.cs)  
 
 ### [198. House Robber](https://leetcode.com/problems/house-robber/)
 
@@ -161,12 +267,12 @@ Code: [C#](/src/csharp/Problems/IsHappy.cs)
 ### [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
 
 Tags: Hash Table, String  
-Code: [C#](/src/csharp/Problems/IsIsomorphic.cs)  
+Code: [C#](/src/csharp/Problems/IsIsomorphic.cs) | [Go](/src/go/problems/IsIsomorphic.go)  
 
 ### [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 Tags: Linked List, Recursion  
-Code: [C#](/src/csharp/Problems/ReverseList.cs)  
+Code: [C#](/src/csharp/Problems/ReverseList.cs) | [Go](/src/go/problems/ReverseList.go)  
 
 ### [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
@@ -177,6 +283,11 @@ Code: [C#](/src/csharp/Problems/Trie.cs)
 
 Tags: Depth-First Search, Breadth-First Search, Graph, Topological Sort  
 Code: [C#](/src/csharp/Problems/FindOrder.cs)  
+
+### [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+
+Tags: Array, Hash Table, Sorting  
+Code: [C#](/src/csharp/Problems/ContainsDuplicate.cs) | [Go](/src/go/problems/ContainsDuplicate.go)  
 
 ### [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
@@ -193,6 +304,11 @@ Code: [C#](/src/csharp/Problems/Calculate.cs)
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/KthSmallest.cs)  
 
+### [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+
+Tags: Math, Bit Manipulation, Recursion  
+Code: [C#](/src/csharp/Problems/IsPowerOfTwo.cs)  
+
 ### [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 Tags: Stack, Design, Queue  
@@ -201,17 +317,32 @@ Code: [C#](/src/csharp/Problems/MyQueue.cs)
 ### [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
 Tags: Linked List, Two Pointers, Stack, Recursion  
-Code: [C#](/src/csharp/Problems/IsPalindrome.cs)  
+Code: [C#](/src/csharp/Problems/IsPalindromeLinkedList.cs)  
 
 ### [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 Tags: Tree, Depth-First Search, Binary Search Tree, Binary Tree  
 Code: [C#](/src/csharp/Problems/LowestCommonAncestor.cs)  
 
+### [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+
+Tags: Array, Prefix Sum  
+Code: [C#](/src/csharp/Problems/ProductExceptSelf.cs) | [Go](/src/go/problems/ProductExceptSelf.go)  
+
+### [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
+Tags: Hash Table, String, Sorting  
+Code: [C#](/src/csharp/Problems/IsAnagram.cs) | [Go](/src/go/problems/IsAnagram.go)  
+
 ### [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 Tags: Binary Search, Interactive  
 Code: [C#](/src/csharp/Problems/FirstBadVersion.cs)  
+
+### [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+
+Tags: Array, Two Pointers  
+Code: [C#](/src/csharp/Problems/MoveZeroes.cs)  
 
 ### [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
 
@@ -228,6 +359,16 @@ Code: [C#](/src/csharp/Problems/CoinChange.cs)
 Tags: Linked List  
 Code: [C#](/src/csharp/Problems/OddEvenList.cs)  
 
+### [344. Reverse String](https://leetcode.com/problems/reverse-string/)
+
+Tags: Two Pointers, String  
+Code: [C#](/src/csharp/Problems/ReverseString.cs)  
+
+### [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+
+Tags: Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect  
+Code: [C#](/src/csharp/Problems/TopKFrequentElement.cs) | [Go](/src/go/problems/TopKFrequentElement.go)  
+
 ### [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 Tags: Hash Table, String, Counting  
@@ -236,7 +377,7 @@ Code: [C#](/src/csharp/Problems/RansomNote.cs)
 ### [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
 Tags: Two Pointers, String, Dynamic Programming  
-Code: [C#](/src/csharp/Problems/IsSubsequence.cs)  
+Code: [C#](/src/csharp/Problems/IsSubsequence.cs) | [Go](/src/go/problems/IsSubsequence.go)  
 
 ### [394. Decode String](https://leetcode.com/problems/decode-string/)
 
@@ -246,7 +387,7 @@ Code: [C#](/src/csharp/Problems/DecodeString.cs)
 ### [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
 Tags: Hash Table, String, Greedy  
-Code: [C#](/src/csharp/Problems/LongestPalindrome.cs)  
+Code: [C#](/src/csharp/Problems/LongestPalindrome.cs) | [Go](/src/go/problems/LongestPalindrome.go)  
 
 ### [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
 
@@ -278,20 +419,50 @@ Code: [C#](/src/csharp/Problems/FindSubsequences.cs)
 Tags: Math, Dynamic Programming, Recursion, Memoization  
 Code: [C#](/src/csharp/Problems/Fibonacci.cs)  
 
+### [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
+
+Tags: Array, Dynamic Programming, Breadth-First Search, Matrix  
+Code: [C#](/src/csharp/Problems/UpdateMatrix.cs)  
+
 ### [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 Tags: Tree, Depth-First Search, Binary Tree  
 Code: [C#](/src/csharp/Problems/DiameterOfBinaryTree.cs)  
+
+### [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+
+Tags: Depth-First Search, Breadth-First Search, Union Find, Graph  
+Code: [C#](/src/csharp/Problems/FindCircleNum.cs)  
+
+### [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+
+Tags: Two Pointers, String  
+Code: [C#](/src/csharp/Problems/ReverseWords.cs)  
+
+### [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
+
+Tags: Hash Table, Two Pointers, String, Sliding Window  
+Code: [C#](/src/csharp/Problems/CheckInclusion.cs)  
 
 ### [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 Tags: Stack, Tree, Depth-First Search  
 Code: [C#](/src/csharp/Problems/Preorder.cs)  
 
+### [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+
+Tags: Tree, Depth-First Search, Breadth-First Search, Binary Tree  
+Code: [C#](/src/csharp/Problems/MergeTrees.cs)  
+
 ### [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 Tags: Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting  
-Code: [C#](/src/csharp/Problems/TopKFrequent.cs)  
+Code: [C#](/src/csharp/Problems/TopKFrequentWords.cs)  
+
+### [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+
+Tags: Array, Depth-First Search, Breadth-First Search, Union Find, Matrix  
+Code: [C#](/src/csharp/Problems/MaxAreaOfIsland.cs)  
 
 ### [704. Binary Search](https://leetcode.com/problems/binary-search/)
 
@@ -301,7 +472,7 @@ Code: [C#](/src/csharp/Problems/BinarySearch.cs)
 ### [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 
 Tags: Array, Prefix Sum  
-Code: [C#](/src/csharp/Problems/PivotIndex.cs)  
+Code: [C#](/src/csharp/Problems/PivotIndex.cs) | [Go](/src/go/problems/PivotIndex.go)  
 
 ### [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 
@@ -311,12 +482,17 @@ Code: [C#](/src/csharp/Problems/FloodFill.cs)
 ### [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 
 Tags: Array, Stack  
-Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)  
+Code: [C#](/src/csharp/Problems/AsteroidCollision.cs)| [Go](/src/go/problems/AsteroidCollision.go)  
 
 ### [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 
 Tags: Array, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinCostClimbingStairs.cs)  
+
+### [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
+
+Tags: String, Backtracking, Bit Manipulation  
+Code: [C#](/src/csharp/Problems/LetterCasePermutation.cs)  
 
 ### [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 
@@ -326,17 +502,27 @@ Code: [C#](/src/csharp/Problems/BackspaceCompare.cs)
 ### [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 Tags: Linked List, Two Pointers  
-Code: [C#](/src/csharp/Problems/MiddleNode.cs)  
+Code: [C#](/src/csharp/Problems/MiddleNode.cs) | [Go](/src/go/problems/MiddleNode.go)  
 
 ### [926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
 Tags: String, Dynamic Programming  
 Code: [C#](/src/csharp/Problems/MinFlipsMonoIncr.cs)  
 
+### [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+
+Tags: Depth-First Search, Union Find, Graph  
+Code: [C#](/src/csharp/Problems/RemoveStones.cs)  
+
 ### [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
 
 Tags: Array, Hash Table, Prefix Sum  
 Code: [C#](/src/csharp/Problems/SubarraysDivByK.cs)  
+
+### [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+
+Tags: Array, Two Pointers, Sorting  
+Code: [C#](/src/csharp/Problems/SortedSquares.cs)  
 
 ### [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
@@ -366,7 +552,7 @@ Code: [C#](/src/csharp/Problems/MinTime.cs)
 ### [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 
 Tags: Array, Prefix Sum  
-Code: [C#](/src/csharp/Problems/RunningSum.cs)  
+Code: [C#](/src/csharp/Problems/RunningSum.cs) | [Go](/src/go/problems/RunningSum.go)  
 
 ### [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
@@ -391,4 +577,4 @@ Code: [C#](/src/csharp/Problems/LongestPalindromeByConcat2Letter.cs)
 ### [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers/)
 
 Tags: Math  
-Code: [C#](/src/csharp/Problems/AddTwoIntegers.cs)  
+Code: [C#](/src/csharp/Problems/AddTwoIntegers.cs) | [Go](/src/go/problems/AddTwoIntegers.go)  
